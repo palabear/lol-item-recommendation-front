@@ -29,7 +29,7 @@ const champions = champions_list;
 
 const theme = createTheme();
 
-export default function Album() {       
+export default function Recommendation() {       
     const [myChampion, setMyChampionid] = useState(0);
     const [enemyChampion,setEnemyChampionid] = useState(0);
     const [itemImage,setItemImage] = useState([1,2,3,4,5,6]);
